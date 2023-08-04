@@ -1,0 +1,27 @@
+.container {
+  background-color: aquamarine;
+  width: 640px;
+  height: 640px;
+  justify-content: start;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.gridRow {
+  background-color: black;
+}
+
+.cell {
+  background-color: blue;
+  display: flex;
+}
+
+.square {
+  background-color: black;
+  color: aliceblue;
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  flex-wrap: wrap;
+}
