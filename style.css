@@ -1,11 +1,8 @@
 .container {
   background-color: aquamarine;
-  width: 640px;
-  height: 640px;
-  justify-content: start;
-  display: flex;
-  flex-wrap: wrap;
-
+  width: 500px;
+  height: 500px;
+  display: grid;
 }
 
 .gridRow {
@@ -20,8 +17,6 @@
 .square {
   background-color: black;
   color: aliceblue;
-  width: 40px;
-  height: 40px;
   margin: 0;
-  flex-wrap: wrap;
+  user-select: none;
 }
