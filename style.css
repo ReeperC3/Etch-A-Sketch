@@ -1,22 +1,49 @@
+* {
+  font-family: sans-serif;
+}
+
+.heading {
+  text-align: center;
+  font-size: 40px;
+}
+
+.all {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+
 .container {
-  background-color: aquamarine;
+  background-color: white;
   width: 500px;
   height: 500px;
   display: grid;
-}
-
-.gridRow {
-  background-color: black;
-}
-
-.cell {
-  background-color: blue;
-  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
 }
 
 .square {
-  background-color: black;
-  color: aliceblue;
+  background-color: white;
   margin: 0;
   user-select: none;
+}
+
+.color {
+  width: 95px;
+  margin: 20px;
+}
+
+.number {
+  margin: 20px;
+}
+
+button {
+  margin: 20px;
+  padding: 10px 20px;
 }
